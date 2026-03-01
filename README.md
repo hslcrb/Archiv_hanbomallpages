@@ -24,12 +24,12 @@ The initial archiving was performed on Sunday, March 1, 2026 (KST).
 
 **한국어**
 
-아카이빙에는 Google Chrome 확장 프로그램 **Save All Resources**(SingleFile 방식)를 사용하였습니다.
+아카이빙에는 Google Chrome 확장 프로그램 **SingleFile**을 사용하였습니다.
 각 페이지는 모든 리소스(이미지, CSS, 폰트, 스크립트 등)가 포함된 단일 HTML 파일(`.html`)로 저장되었습니다.
 
 **English**
 
-The archiving was performed using the **Save All Resources** Google Chrome extension (SingleFile method).
+The archiving was performed using the **SingleFile** Google Chrome extension.
 Each page is saved as a single self-contained HTML file (`.html`) with all resources (images, CSS, fonts, scripts, etc.) embedded.
 
 ---
