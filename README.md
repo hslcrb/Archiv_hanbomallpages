@@ -112,6 +112,7 @@ Archiv_hanbomallpages/
 | 기준 시간대 / Timezone | KST (GMT+9) |
 | 원본 URL / Source URL | `https://hanbom-h.goesw.kr/` |
 | 저장 형식 / Format | SingleFile HTML (self-contained) |
+| 파일 크기 제한 / File Size Limit | **Max 100MB per file** (Split archive if needed) |
 
 ---
 
