@@ -33,9 +33,9 @@ We use **SingleFile** (Chrome/Firefox extension) for archiving, and the followin
 - If there are files that must be downloaded separately (PDF, HWP, images, etc.), create a folder named appropriately (e.g., `details`, `pdf`, `docs`, `hwp`, `photos`, `images`) and save them there.
 
 ### 4. 파일 크기 및 압축 / File Size & Compression
-- 개별 파일의 크기는 **100MB**를 초과할 수 없습니다.
+- 개별 파일의 크기는 **100MB 미만**이어야 합니다.
 - 무손실 방식으로 크기를 줄일 수 없는 경우, **분할 압축**하여 업로드해야 합니다.
-- Individual file size **must not exceed 100MB**.
+- Individual file size **must be under 100MB**.
 - If the size cannot be reduced losslessly, you must use **split archiving (multi-part compression)** for the upload.
 
 ---
@@ -72,5 +72,5 @@ For project stability, we only allow contributions through **Pull Requests (PR)*
 1. **계층형 폴더 구조**: 大탭 > 小탭 > 중첩된 小탭 순으로 웹사이트 이름을 그대로 사용한 폴더를 생성합니다. (Folder Structure: Main > Sub > Nested sub-folders using exact website names.)
 2. **필수 스크롤**: SingleFile 저장 전, 페이지와 내부 뷰어를 **반드시 맨 아래까지 스크롤**하여 모든 리소스를 로드해야 합니다. (Mandatory Scrolling: Scroll to the bottom of the page and internal viewers before saving.)
 3. **별도 리소스**: 별도 다운로드 파일은 폴더 내 `pdf`, `문서`, `사진` 등 적절한 하위 폴더에 관리합니다. (Separate Resources: Manage downloads in appropriate sub-folders like `pdf`, `docs`, `photos`.)
-4. **파일 제한**: 개별 파일 **100MB 이하** 유지, 필요 시 **분할 압축**을 사용합니다. (File Limits: Keep files under **100MB** and use **split archiving** if necessary.)
+4. **파일 제한**: 개별 파일 **100MB 미만** 유지, 필요 시 **분할 압축**을 사용합니다. (File Limits: Keep files **under 100MB** and use **split archiving** if necessary.)
 5. **브랜치 및 PR 필수**: `main`에 직접 푸시하지 말고, 새 브랜치에서 작업 후 **Pull Request**를 생성하세요. (Branch & PR Required: Do not push to `main` directly. Work on a new branch and create a **Pull Request**.)
