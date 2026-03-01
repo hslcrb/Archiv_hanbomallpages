@@ -15,8 +15,10 @@ We use **SingleFile** (Chrome/Firefox extension) for archiving, and the followin
 ### 1. 폴더 구조 생성 / Create Folder Structure
 - **大탭 (Main Tabs)**: 웹사이트 상단 네비게이션 바의 대분류 이름을 그대로 사용하여 `Archiv/` 내에 폴더를 생성합니다. (파일명 사용 불가 특수문자는 공백으로 대체)
 - **小탭 (Sub Tabs)**: 대분류 안에 소분류가 있다면 마찬가지로 폴더를 생성합니다.
+- **중첩된 小탭 (Nested Sub Tabs)**: 소분류 내에 또 다른 하위 분류가 있는 경우에도 위와 동일한 방식으로 하위 폴더를 생성하여 관리합니다.
 - **Main Tabs**: Create folders in `Archiv/` using the exact names of the main navigation tabs. (Replace invalid characters with spaces).
 - **Sub Tabs**: If there are sub-menus within a main tab, create corresponding sub-folders.
+- **Nested Sub Tabs**: If there are further sub-menus within a sub-menu, continue to create corresponding sub-folders in the same manner.
 
 ### 2. 페이지 저장 (SingleFile) / Save Page (SingleFile)
 - 해당 탭의 이름을 그대로 사용하여 `.html` 파일로 저장합니다.
@@ -42,3 +44,16 @@ We use **SingleFile** (Chrome/Firefox extension) for archiving, and the followin
 
 - 개인정보가 포함된 페이지는 아카이브하지 마세요. / Do not archive pages containing personal information.
 - 로그인이 필요한 페이지는 신중하게 검토 후 아카이브하시기 바랍니다. / Please carefully review and archive pages that require login.
+
+---
+
+## 핵심 요약 (주의: 요약만 읽고 기여하지 마세요!) / Core Summary (CAUTION: Do NOT contribute based on this summary alone!)
+
+> [!WARNING]
+> 아래 요약은 빠른 참조용입니다. **기여 전 반드시 위의 상세 가이드 전체를 숙지**해야 합니다. 지침 미준수 시 데이터 누락 등이 발생할 수 있습니다.
+> This summary is for quick reference only. You **must read and understand the full guide above** before contributing. Failure to follow instructions may result in data loss or incomplete captures.
+
+1. **계층형 폴더 구조**: 大탭 > 小탭 > 중첩된 小탭 순으로 웹사이트 이름을 그대로 사용한 폴더를 생성합니다. (Folder Structure: Main > Sub > Nested sub-folders using exact website names.)
+2. **필수 스크롤**: SingleFile 저장 전, 페이지와 내부 뷰어를 **반드시 맨 아래까지 스크롤**하여 모든 리소스를 로드해야 합니다. (Mandatory Scrolling: Scroll to the bottom of the page and internal viewers before saving.)
+3. **별도 리소스**: 별도 다운로드 파일은 폴더 내 `pdf`, `문서`, `사진` 등 적절한 하위 폴더에 관리합니다. (Separate Resources: Manage downloads in appropriate sub-folders like `pdf`, `docs`, `photos`.)
+4. **파일 제한**: 개별 파일 **100MB 이하** 유지, 필요 시 **분할 압축**을 사용합니다. (File Limits: Keep files under **100MB** and use **split archiving** if necessary.)
