@@ -40,6 +40,22 @@ We use **SingleFile** (Chrome/Firefox extension) for archiving, and the followin
 
 ---
 
+## Git 워크플로우 / Git Workflow
+
+이 프로젝트는 안정성을 위해 **Pull Request (PR)** 방식을 통한 기여만을 허용합니다.
+
+For project stability, we only allow contributions through **Pull Requests (PR)**.
+
+1. **브랜치 생성 / Create a Branch**: `main` 브랜치에서 직접 작업하지 마세요. 작업할 내용에 맞는 이름으로 새 브랜치를 생성합니다.
+   - 예: `feat/add-school-info`, `fix/broken-link`
+   - Do NOT work directly on the `main` branch. Create a new branch with a descriptive name.
+2. **커밋 및 푸시 / Commit & Push**: 상세한 커밋 메시지와 함께 변경 사항을 푸시합니다. 한글과 영어를 병기하여 상세히 기록하는 것을 권장합니다.
+   - Commit and push your changes with detailed messages. We recommend using both Korean and English for documentation accuracy.
+3. **Pull Request 생성 / Create a Pull Request**: GitHub에서 `main` 브랜치로의 PR을 생성합니다. 관리자의 검토 후 머지됩니다.
+   - Create a PR to the `main` branch on GitHub. It will be merged after a moderator's review.
+
+---
+
 ## 주의사항 / Important Notes
 
 - 개인정보가 포함된 페이지는 아카이브하지 마세요. / Do not archive pages containing personal information.
@@ -57,3 +73,4 @@ We use **SingleFile** (Chrome/Firefox extension) for archiving, and the followin
 2. **필수 스크롤**: SingleFile 저장 전, 페이지와 내부 뷰어를 **반드시 맨 아래까지 스크롤**하여 모든 리소스를 로드해야 합니다. (Mandatory Scrolling: Scroll to the bottom of the page and internal viewers before saving.)
 3. **별도 리소스**: 별도 다운로드 파일은 폴더 내 `pdf`, `문서`, `사진` 등 적절한 하위 폴더에 관리합니다. (Separate Resources: Manage downloads in appropriate sub-folders like `pdf`, `docs`, `photos`.)
 4. **파일 제한**: 개별 파일 **100MB 이하** 유지, 필요 시 **분할 압축**을 사용합니다. (File Limits: Keep files under **100MB** and use **split archiving** if necessary.)
+5. **브랜치 및 PR 필수**: `main`에 직접 푸시하지 말고, 새 브랜치에서 작업 후 **Pull Request**를 생성하세요. (Branch & PR Required: Do not push to `main` directly. Work on a new branch and create a **Pull Request**.)
