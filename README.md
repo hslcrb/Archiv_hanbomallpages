@@ -20,6 +20,14 @@ The initial archiving was performed on Sunday, March 1, 2026 (KST).
 
 ---
 
+## 문서 / Documentation
+
+- **공지사항 / Notice** : [NOTICE.md](docs/NOTICE.md)
+- **기여 가이드 / Contributing Guide** : [CONTRIBUTING.md](docs/CONTRIBUTING.md)
+- **아카이빙 메모 / Notes** : [20260301최초아카이빙.txt](docs/20260301최초아카이빙.txt)
+
+---
+
 ## 아카이빙 도구 / Archiving Tool
 
 **한국어**
