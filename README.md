@@ -42,6 +42,7 @@ Each page is saved as a single self-contained HTML file (`.html`) with all resou
 
 - **학교소개** — 학교 소개 전 페이지(하위 포함)
 - **입학안내** — 입학 안내 전 페이지(하위 포함)
+- **취업/진학** — 취업자료, 취업현황, 진로진학자료, 현장실습 및 채용의뢰(일부)
 - **결과 조회** — 결과 조회 전 페이지(하위 포함)
 - **로그인 화면** — 경기도학교통합 로그인 페이지
 - **마이페이지** — 마이페이지
@@ -59,6 +60,7 @@ The following sections were archived:
 
 - **School Introduction** — all pages under 학교소개 (including sub-pages)
 - **Admissions Guide** — all pages under 입학안내 (including sub-pages)
+- **Employment/Career** — Employment data/status, career materials, field training etc.
 - **Result Inquiry** — all pages under 결과 조회 (including sub-pages)
 - **Login Page** — Gyeonggi School Integration login screen
 - **My Page** — personal account page
@@ -80,6 +82,7 @@ Archiv_hanbomallpages/
 │   ├── 한봄고등학교.html          # 메인 페이지 / Main page
 │   ├── 학교소개/                  # 학교 소개 / School introduction
 │   ├── 입학안내/                  # 입학 안내 / Admissions guide
+│   ├── 취업 진학/                 # 취업·진학 / Employment & Career
 │   ├── 결과 조회/                 # 결과 조회 / Result inquiry
 │   ├── 경기도수원교육지원청 - 통합검색/  # 통합검색 / Integrated search
 │   ├── 경기도학교통합 로그인/      # 로그인 / Login
